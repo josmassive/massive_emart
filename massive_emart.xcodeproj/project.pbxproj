@@ -16,6 +16,10 @@
 		23A642982A5E1F96000DD420 /* massive_emartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A642972A5E1F96000DD420 /* massive_emartTests.swift */; };
 		23A642A22A5E1F96000DD420 /* massive_emartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A642A12A5E1F96000DD420 /* massive_emartUITests.swift */; };
 		23A642A42A5E1F96000DD420 /* massive_emartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A642A32A5E1F96000DD420 /* massive_emartUITestsLaunchTests.swift */; };
+		23C94D2D2A605EC000EB8753 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23C94D2C2A605EC000EB8753 /* GoogleService-Info.plist */; };
+		23C94D2F2A60666900EB8753 /* FlowStore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C94D2E2A60666900EB8753 /* FlowStore.storyboard */; };
+		23C94D312A60680800EB8753 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C94D302A60680800EB8753 /* HomeViewController.swift */; };
+		23E94D392A5F0EBE00F061EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E94D382A5F0EBE00F061EB /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		23A6429D2A5E1F96000DD420 /* massive_emartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = massive_emartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A642A12A5E1F96000DD420 /* massive_emartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = massive_emartUITests.swift; sourceTree = "<group>"; };
 		23A642A32A5E1F96000DD420 /* massive_emartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = massive_emartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23C94D2C2A605EC000EB8753 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		23C94D2E2A60666900EB8753 /* FlowStore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FlowStore.storyboard; sourceTree = "<group>"; };
+		23C94D302A60680800EB8753 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		23E94D382A5F0EBE00F061EB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +110,14 @@
 				23A642802A5E1F92000DD420 /* AppDelegate.swift */,
 				23A642822A5E1F92000DD420 /* SceneDelegate.swift */,
 				23A642842A5E1F92000DD420 /* ViewController.swift */,
+				23E94D382A5F0EBE00F061EB /* LoginViewController.swift */,
 				23A642862A5E1F92000DD420 /* Main.storyboard */,
 				23A642892A5E1F94000DD420 /* Assets.xcassets */,
 				23A6428B2A5E1F94000DD420 /* LaunchScreen.storyboard */,
 				23A6428E2A5E1F94000DD420 /* Info.plist */,
+				23C94D2C2A605EC000EB8753 /* GoogleService-Info.plist */,
+				23C94D2E2A60666900EB8753 /* FlowStore.storyboard */,
+				23C94D302A60680800EB8753 /* HomeViewController.swift */,
 			);
 			path = massive_emart;
 			sourceTree = "<group>";
@@ -232,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				23A6428D2A5E1F94000DD420 /* LaunchScreen.storyboard in Resources */,
+				23C94D2F2A60666900EB8753 /* FlowStore.storyboard in Resources */,
+				23C94D2D2A605EC000EB8753 /* GoogleService-Info.plist in Resources */,
 				23A6428A2A5E1F94000DD420 /* Assets.xcassets in Resources */,
 				23A642882A5E1F92000DD420 /* Main.storyboard in Resources */,
 			);
@@ -258,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C94D312A60680800EB8753 /* HomeViewController.swift in Sources */,
+				23E94D392A5F0EBE00F061EB /* LoginViewController.swift in Sources */,
 				23A642852A5E1F92000DD420 /* ViewController.swift in Sources */,
 				23A642812A5E1F92000DD420 /* AppDelegate.swift in Sources */,
 				23A642832A5E1F92000DD420 /* SceneDelegate.swift in Sources */,
