@@ -27,7 +27,7 @@
         <!--Home-->
         <scene sceneID="FsK-hY-q0U">
             <objects>
-                <viewController id="BsU-4x-cn9" customClass="HomeViewController" customModule="massive_emart" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="HomeViewController" storyboardIdentifier="HomeViewController" id="BsU-4x-cn9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aIV-Vy-zrn">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -70,7 +70,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IX9-eq-l54" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1310" y="81"/>
+            <point key="canvasLocation" x="-1546" y="82"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="s0d-6b-0kx">

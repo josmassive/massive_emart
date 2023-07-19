@@ -9,13 +9,19 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    var productdNames:[String] = ["Rosquilla de Homero", "Tomaco", "Kruzty Burguer"]
+    
+    var productImage:[String] = ["ProductRosquilla", "ProductTomaco", "ProductKruztyBurguer"]
+    
+    @IBOutlet weak var collectionProducts: UICollectionView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
-
     /*
     // MARK: - Navigation
 
@@ -25,5 +31,22 @@ class HomeViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
+}
+
+extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return productdNames.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cellCollectionProduct", for: indexPath) as! CollectionViewCellProducts
+        
+        cell.imageProduct.image = UIImage(named: productImage[indexPath.row])
+        cell.nameProduct.text = productdNames[indexPath.row]
+        
+        return cell
+    }
+    
 
 }
